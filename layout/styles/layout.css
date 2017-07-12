@@ -8,8 +8,8 @@ Licence URI: http://www.os-templates.com/template-terms
 File: Layout CSS
 */
 
-@import url("fontawesome-4.5.0.min.css");
 @import url("framework.css");
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 /* Rows
 --------------------------------------------------------------------------------------------------------------- */
@@ -150,7 +150,7 @@ File: Layout CSS
 nav ul, nav ol{margin:0; padding:0; list-style:none;}
 
 #mainav, #breadcrumb, .sidebar nav{line-height:normal;}
-#mainav .drop::after, #mainav li li .drop::after, #breadcrumb li a::after, .sidebar nav a::after{position:absolute; font-family:"FontAwesome"; font-size:10px; line-height:10px;}
+#mainav .drop::after, #mainav li li .drop::after, #breadcrumb li a::after, .sidebar nav a::after{position:absolute; font-family:"MontSerrat"; font-size:10px; line-height:10px;}
 
 /* Top Navigation */
 #mainav{margin-bottom:40px; border-bottom:1px solid;}
